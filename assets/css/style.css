@@ -132,12 +132,13 @@ button:focus {
     padding: 19px 36px;
     font-size: 18px;
     font-weight: 500;
-    background: #00837c;
-    color: #FFFFFF;
+    background: #3500d3;
+    color: #ffffff;
     border-radius: 5px;
     text-transform: capitalize;
     border: 2px solid transparent;
     transition: all .3s;
+    /* border-color: #ffffff; */
 }
 
 .theme-btn i {
@@ -145,9 +146,10 @@ button:focus {
 }
 
 .theme-btn:hover {
-    border-color: #00837c;
-    color: #016e69;
-    background: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+    /* color: #9a1750; */
+    /* background: transparent; */
 }
 
 .theme-btn:focus {
@@ -187,7 +189,7 @@ button:focus {
     margin-top: 100px;
     background-size: cover;
     background-position: center;
-    background-image: url(../images/hero/hero-bg.jpg);
+    background-image: url(../images/sample/technology-g11b7e3bf5_1280.jpg);
 }
 
 .hero-section::before {
@@ -199,7 +201,7 @@ button:focus {
     height: 100%;
     z-index: -1;
     opacity: .65;
-    background: #100358;
+    /* background: #3500d3; */
 }
 
 .hero-section .hero-shape {
@@ -215,14 +217,14 @@ button:focus {
 }
 
 .hero-content h1 {
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 55px;
     line-height: 1.25;
     margin-bottom: 20px;
 }
 
 .hero-content p {
-    color: #F0EFF0;
+    color: #c2bbbd;
     font-size: 20px;
     margin-bottom: 45px;
 }
@@ -233,13 +235,14 @@ button:focus {
 /****************************************************** */
 .service-item {
     position: relative;
+    color: #fff;
     display: flex;
     align-items: center;
     z-index: 1;
     padding: 20px 40px;
     margin-bottom: 50px;
     transition: all .3s;
-    background: linear-gradient(to right, #84f389, #FFFFFF);
+    background: linear-gradient(to right, #c8cbe4, #ffffff);
 }
 
 .service-item::after {
@@ -247,7 +250,7 @@ button:focus {
     content: "";
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #00837c, #FFFFFF);
+    background: linear-gradient(to right, #3500d3, #FFFFFF);
     left: 0;
     top: 0;
     opacity: 0;
@@ -282,13 +285,13 @@ button:focus {
 }
 
 .serv-content h5 a {
-    color: #1f0039;
+    color: #000000;
     font-weight: 700;
     transition: 0.5s;
 }
 
 .serv-content h5 a:hover {
-    color: #031668;
+    color: #ffffff;
 }
 
 .service-img {
@@ -299,7 +302,7 @@ button:focus {
     background-size: cover;
     height: calc(100% - 50px);
     background-position: center;
-    background-image: url('../images/service/service-img.jpg');
+    background-image: url('../images/sample/service-img.jpg');
 }
 
 .service-img::before {
@@ -343,7 +346,7 @@ button:focus {
 
 .experience-years h1 {
     font-size: 65px;
-    color: #00837c;
+    color: #190061;
 }
 
 .experience-content {
@@ -352,15 +355,15 @@ button:focus {
     max-width: 370px;
     left: 140px;
     bottom: 40px;
-    background: #ffefed;
-    border-bottom: 5px solid #00837c;
-    border-right: 5px solid #00837c;
+    background: #dfe1f5;
+    border-bottom: 5px solid #190061;
+    border-right: 5px solid #190061;
     border-radius: 0px 50px 0px 50px;
     z-index: 1;
 }
 
 .experience-content blockquote {
-    color: #1f0039;
+    color: #1e0136;
     margin-bottom: 0;
 }
 
@@ -383,7 +386,7 @@ button:focus {
 
 .chooseus-list ul li {
     margin-bottom: 30px;
-    color: #455244;
+    color: #0c0032;
     font-weight: 500;
 }
 
@@ -414,7 +417,7 @@ button:focus {
 /*****************  06. Project Section *************** */
 /****************************************************** */
 .project-section {
-    background: linear-gradient(to bottom, #FFEFED, #FFFFFF);
+    background: linear-gradient(to bottom, #dfe1f5, #FFFFFF);
 }
 
 .project-item {
@@ -524,7 +527,7 @@ button:focus {
 .testimonial-inner {
     position: relative;
     padding: 65px 40px 40px 50px;
-    background: linear-gradient(to right, #daffdd, #FFFFFF);
+    background: linear-gradient(to right, #dfe1f5, #FFFFFF);
     z-index: 11;
 }
 
@@ -537,7 +540,7 @@ button:focus {
     bottom: -15px;
     border-left: 20px solid transparent;
     border-right: 0px solid transparent;
-    border-top: 15px solid #daffdd;
+    border-top: 15px solid #dfe1f5;
     z-index: -1;
 }
 
@@ -605,12 +608,12 @@ button:focus {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #daffdf;
+    background: #dfe1f5;
     transition: all .5s;
 }
 
 .testimonial-section .slick-dots li.slick-active button:before {
-    background: #98fc46;
+    background: #190061;
 }
 
 .testimonial-section .slick-dots li button:after {
@@ -623,7 +626,7 @@ button:focus {
     z-index: -1;
     opacity: 0;
     border-radius: 50%;
-    background: #e0ffda;
+    background: #dfe1f5;
     transition: all .5s;
 }
 
@@ -636,7 +639,7 @@ button:focus {
 /*****************  08. Call To Action **************** */
 /****************************************************** */
 .cta-section {
-    background: linear-gradient(to top, #daffdc, #ffffff);
+    background: linear-gradient(to top, #dfe1f5, #ffffff);
 }
 
 .cta-section.bg-white {
@@ -649,7 +652,7 @@ button:focus {
     background: url(../images/cta-bg.jpg);
     background-position: center;
     background-size: cover;
-    border-bottom: 5px solid #a2ff96;
+    border-bottom: 5px solid #dfe1f5;
     z-index: 1;
 }
 
@@ -1700,7 +1703,7 @@ button:focus {
 /*******************  18. Main Footer ***************** */
 /****************************************************** */
 .footer-wrap {
-    background: linear-gradient(to top, #daffdc, #fff9f9);
+    background: linear-gradient(to top, #dfe1f5, #fff9f9);
 }
 
 .footer-widget {
@@ -1811,7 +1814,7 @@ button:focus {
     position: fixed;
     font-size: 18px;
     border-radius: 50%;
-    background: #10b676;
+    background: #9198e9;
     animation: pulse 2s infinite;
     -webkit-animation: pulse 2s infinite;
 }
