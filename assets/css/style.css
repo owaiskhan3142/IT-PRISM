@@ -132,7 +132,7 @@ button:focus {
     padding: 19px 36px;
     font-size: 18px;
     font-weight: 500;
-    background: #FC5546;
+    background: #00837c;
     color: #FFFFFF;
     border-radius: 5px;
     text-transform: capitalize;
@@ -145,14 +145,14 @@ button:focus {
 }
 
 .theme-btn:hover {
-    border-color: #FC5546;
-    color: #FC5546;
+    border-color: #00837c;
+    color: #016e69;
     background: transparent;
 }
 
 .theme-btn:focus {
     box-shadow: none;
-    border: 2px solid #FC5546;
+    border: 2px solid #00837c;
 }
 
 .section-title {
@@ -162,7 +162,7 @@ button:focus {
 }
 
 .section-title span {
-    color: #FC5546;
+    color: #00837c;
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -199,7 +199,7 @@ button:focus {
     height: 100%;
     z-index: -1;
     opacity: .65;
-    background: #1f0039;
+    background: #100358;
 }
 
 .hero-section .hero-shape {
@@ -239,7 +239,7 @@ button:focus {
     padding: 20px 40px;
     margin-bottom: 50px;
     transition: all .3s;
-    background: linear-gradient(to right, #FFDDDA, #FFFFFF);
+    background: linear-gradient(to right, #84f389, #FFFFFF);
 }
 
 .service-item::after {
@@ -247,7 +247,7 @@ button:focus {
     content: "";
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #FC5546, #FFFFFF);
+    background: linear-gradient(to right, #00837c, #FFFFFF);
     left: 0;
     top: 0;
     opacity: 0;
@@ -288,7 +288,7 @@ button:focus {
 }
 
 .serv-content h5 a:hover {
-    color: #ffffff;
+    color: #031668;
 }
 
 .service-img {
@@ -309,7 +309,7 @@ button:focus {
     height: 100%;
     left: 0;
     bottom: 0;
-    background: linear-gradient(to top, #1F0039, transparent 70%);
+    background: linear-gradient(to top, #100358, transparent 70%);
 }
 
 .service-details-btn {
@@ -321,29 +321,6 @@ button:focus {
     text-align: center;
 }
 
-
-/****************************************************** */
-/*****************  04. Partner Section *************** */
-/****************************************************** */
-.partners-group {
-    padding: 70px;
-    background: #FFEFED;
-    border-bottom: 5px solid #FFA8A0;
-}
-
-.partner-logo {
-    text-align: center;
-}
-
-.partner-logo a {
-    opacity: 0.5;
-    transition: 0.5s;
-    filter: invert(55%) sepia(67%) saturate(4744%) hue-rotate(334deg) brightness(100%) contrast(98%);
-}
-
-.partner-logo a:hover {
-    opacity: 1;
-}
 
 
 /****************************************************** */
@@ -366,7 +343,7 @@ button:focus {
 
 .experience-years h1 {
     font-size: 65px;
-    color: #FC5546;
+    color: #00837c;
 }
 
 .experience-content {
@@ -376,8 +353,8 @@ button:focus {
     left: 140px;
     bottom: 40px;
     background: #ffefed;
-    border-bottom: 5px solid #ffa8a0;
-    border-right: 5px solid #ffa8a0;
+    border-bottom: 5px solid #00837c;
+    border-right: 5px solid #00837c;
     border-radius: 0px 50px 0px 50px;
     z-index: 1;
 }
@@ -406,7 +383,7 @@ button:focus {
 
 .chooseus-list ul li {
     margin-bottom: 30px;
-    color: #68616D;
+    color: #455244;
     font-weight: 500;
 }
 
@@ -414,7 +391,7 @@ button:focus {
     padding: 6px 7px;
     background: #FFEFED;
     font-size: 20px;
-    color: #FC5546;
+    color: #4c2ba7;
     font-weight: 600;
     margin-right: 15px;
 }
@@ -511,7 +488,7 @@ button:focus {
 
 .project-icon i {
     font-size: 18px;
-    color: #FC5546;
+    color: #46fc4f;
 }
 
 .project-content h5 {
@@ -547,7 +524,7 @@ button:focus {
 .testimonial-inner {
     position: relative;
     padding: 65px 40px 40px 50px;
-    background: linear-gradient(to right, #FFDDDA, #FFFFFF);
+    background: linear-gradient(to right, #daffdd, #FFFFFF);
     z-index: 11;
 }
 
@@ -560,7 +537,7 @@ button:focus {
     bottom: -15px;
     border-left: 20px solid transparent;
     border-right: 0px solid transparent;
-    border-top: 15px solid #FFDDDA;
+    border-top: 15px solid #daffdd;
     z-index: -1;
 }
 
@@ -628,12 +605,12 @@ button:focus {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #FFDDDA;
+    background: #daffdf;
     transition: all .5s;
 }
 
 .testimonial-section .slick-dots li.slick-active button:before {
-    background: #FC5546;
+    background: #98fc46;
 }
 
 .testimonial-section .slick-dots li button:after {
@@ -646,7 +623,7 @@ button:focus {
     z-index: -1;
     opacity: 0;
     border-radius: 50%;
-    background: #FFDDDA;
+    background: #e0ffda;
     transition: all .5s;
 }
 
@@ -659,7 +636,7 @@ button:focus {
 /*****************  08. Call To Action **************** */
 /****************************************************** */
 .cta-section {
-    background: linear-gradient(to top, #ffddda, #ffffff);
+    background: linear-gradient(to top, #daffdc, #ffffff);
 }
 
 .cta-section.bg-white {
@@ -672,7 +649,7 @@ button:focus {
     background: url(../images/cta-bg.jpg);
     background-position: center;
     background-size: cover;
-    border-bottom: 5px solid #FF9F96;
+    border-bottom: 5px solid #a2ff96;
     z-index: 1;
 }
 
@@ -712,57 +689,10 @@ button:focus {
 }
 
 .contact-withus-num .contact-number:hover {
-    color: #FC5546;
+    color: #46fc74;
 }
 
 
-/****************************************************** */
-/******************  09. Blog Section ***************** */
-/****************************************************** */
-.blog-section .section-title {
-    max-width: 480px;
-}
-
-.blog-item {
-    display: flex;
-    margin-bottom: 50px;
-}
-
-.blog-image {
-    background-size: cover;
-    background-position: center;
-    flex: none;
-    width: 195px;
-}
-
-.blog-content {
-    margin-left: 5px;
-    padding: 40px 40px 38px 50px;
-    background: linear-gradient(to right, #FFDDDA, #FFFFFF);
-}
-
-.blog-content .date {
-    color: #FC5546;
-    font-weight: 600;
-}
-
-.blog-content h5 {
-    margin: 10px 0;
-    line-height: 1.6;
-}
-
-.blog-content h5 a {
-    color: #1F0039;
-    transition: 0.5s;
-}
-
-.blog-content h5 a:hover {
-    color: #FC5546;
-}
-
-.blog-content p {
-    margin-bottom: 0;
-}
 
 
 /****************************************************** */
@@ -801,7 +731,7 @@ button:focus {
 
 .page-breadcrumb .breadcrumb {
     max-width: 200px;
-    background: #FC5546;
+    background: #6afc46;
     border-radius: 5px;
     margin-bottom: 0;
     padding: 14px 25px;
@@ -1770,7 +1700,7 @@ button:focus {
 /*******************  18. Main Footer ***************** */
 /****************************************************** */
 .footer-wrap {
-    background: linear-gradient(to top, #ffddda, #fff9f9);
+    background: linear-gradient(to top, #daffdc, #fff9f9);
 }
 
 .footer-widget {
@@ -1800,7 +1730,7 @@ button:focus {
 }
 
 .quick-links ul li a:hover {
-    color: #FC5546;
+    color: #1a881a;
 }
 
 .footer-widget.latest-post {
@@ -1864,7 +1794,7 @@ button:focus {
 }
 
 .copy-right-text p span {
-    color: #FC5546;
+    color: #165e8d;
 }
 
 
@@ -1881,7 +1811,7 @@ button:focus {
     position: fixed;
     font-size: 18px;
     border-radius: 50%;
-    background: #FC5546;
+    background: #10b676;
     animation: pulse 2s infinite;
     -webkit-animation: pulse 2s infinite;
 }
